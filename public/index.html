@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>NKart Shopping</title>
+        <link rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'/>
+    </head>
+	<boby>
+        <center>
+            <h1>NKart Shopping</h1>
+        </center>
+        <hr/>
+        <div class="container">
+            <div class="row">
+                <div class ="col-sm-6">
+                    <h3>TYPE</h3>
+                </div>
+                <div class ="col-sm-6">
+                    <h3>URL</h3>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class ="col-sm-6">
+                    <h3>Users</h3>
+                </div>
+                <div class ="col-sm-6">
+                    <h4><a href="/users">/users</a></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class ="col-sm-6">
+                    <h3>Orders</h3>
+                </div>
+                <div class ="col-sm-6">
+                    <h4><a href="/orders">/orders</a></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class ="col-sm-6">
+                    <h3>Products</h3>
+                </div>
+                <div class ="col-sm-6">
+                    <h4><a href="/products">/products</a></h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class ="col-sm-6">
+                    <h3>User</h3>
+                </div>
+                <div class ="col-sm-3">
+                    <h4><a href="/users/user/:userid">/users/user/:userid</a></h4>
+                    <h4><a href="/restapi/users?userid=:userid">/restapi/users?userid=:userid</a></h4>
+                </div>
+                <div class ="col-sm-3">
+                    <form id="formUser" action="/restapi/users">
+                        <h4><input type="text" name="userid" placeholder="userid"></h4>
+                        <h4><input type="submit" value="GET"></h4>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class ="col-sm-6">
+                    <h3>Order</h3>
+                </div>
+                <div class ="col-sm-3">
+                    <h4><a href="/orders/order/:orderid">/orders/order/:orderid</a></h4>
+                    <h4><a href="/restapi/orders?orderid=:orderid">/restapi/orders?orderid=:orderid</a></h4>
+                </div>
+                <div class ="col-sm-3">
+                    <form id="formOrder" action="/restapi/orders">
+                        <h4><input type="text" name="orderid" placeholder="orderid"></h4>
+                        <h4><input type="submit" value="GET"></h4>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class ="col-sm-6">
+                    <h3>Product</h3>
+                </div>
+                <div class ="col-sm-3">
+                    <h4><a href="/products/product/:productid">/products/product/:productid</a></h4>
+                    <h4><a href="/restapi/products?productid=:productid">/restapi/products?productid=:productid</a></h4>
+                </div>
+                <div class ="col-sm-3">
+                    <form id="fromProduct" action="/restapi/products">
+                        <h4><input type="text" name="productid" placeholder="productid"></h4>
+                        <h4><input type="submit" value="GET"></h4>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
