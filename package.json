@@ -1,0 +1,29 @@
+{
+  "name": "assignment3-kundu-me",
+  "version": "1.0.0",
+  "description": "Assignment 3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www",
+    "start-debug": "node --inspect bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarvardDCENode/assignment3-kundu-me.git"
+  },
+  "author": "Nirmallya Kundu (kundu.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarvardDCENode/assignment3-kundu-me/issues"
+  },
+  "homepage": "https://github.com/HarvardDCENode/assignment3-kundu-me#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fund": "^1.0.0",
+    "http": "^0.0.1-security",
+    "package.json": "^2.0.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}
